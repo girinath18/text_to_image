@@ -6,7 +6,7 @@ from huggingface_hub import hf_hub_download
 from safetensors.torch import load_file
 import mediapy as media
 
-# Parameters
+# Parameters 
 num_inference_steps = 4
 use_lora = False
 model_type = "lora" if use_lora else "unet"
