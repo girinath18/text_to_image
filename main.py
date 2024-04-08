@@ -5,6 +5,8 @@ from diffusers import StableDiffusionXLPipeline, UNet2DConditionModel, EulerDisc
 from huggingface_hub import hf_hub_download
 from safetensors.torch import load_file
 import mediapy as media
+import accelerate
+
 
 # Parameters 
 num_inference_steps = 4
